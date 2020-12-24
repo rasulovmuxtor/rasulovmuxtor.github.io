@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .container{
+    max-width: 760px;
+    margin: auto;
+    text-align: center;
+}
+header h1{
+    display: inline;
+    font-family: sans-serif;
+    border-bottom: 2px solid black;
+    padding:0 10px 3px;
+    border-radius: 5px;
+}
+.links{
+    margin-top: 20px;
+}
+
+.links>a{
+    text-decoration: none;
+    color: #535150;
+    font-weight: bolder;
+    margin: 10px;
+}
+
+.info{
+    display: flex;
+    margin: 30px 0;
+}
+.info>*{
+    padding: 10px;
+    background-color: #EBEBE3;
+    text-align: left;
+    border-radius: 10px;
+}
+.info :first-child{
+    margin-right: 10px;
+}
+
+
+.div3{
+    background-color: #535150;
+    padding: 15px 20px;
+    text-align: left;
+    color: white;
+    font-family: sans-serif;
+    border-bottom: 3px solid black;
+}
+#bar{
+    border:0 solid #EBEBE3 ;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    background-color: #EBEBE3;
+    height: 25px;
+}
+@media screen and (max-width: 480px) {
+    .info{
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    .info :first-child{
+        margin: 0 0 10px;
+    }
+}
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styles</title>
+</head>
+<body>
+    
+    <div class="container">
+
+        <header>
+            <h1>Muxtorjon Rasulov</h1>
+        </header>
+        <div class="links">
+            <a href="https://github.com/rasulovmuxtor" target="_blank">GitHub</a>
+            <a href="https://t.me/rasulovmuxtor" target="_blank">Telegram</a>
+        </div>
+        <div class="info">
+            <div>
+                <p>1    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus repudiandae neque officia, eveniet iste quaerat, sed fugit at natus asperiores assumenda quidem labore corporis dicta debitis dolorum suscipit commodi recusandae?</p>
+            </div>
+            <div>
+                <p>2    Lorem ipsum dolor sit amet consectetur adipisicing elit. At soluta illo excepturi beatae hic nostrum facilis pariatur voluptatibus voluptatum repellat illum adipisci nemo molestiae, dignissimos porro molestias delectus tempore distinctio!</p>
+            </div>
+        </div>
+        <div id="bar"></div>
+        <div class="div3">
+            
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur laboriosam corporis excepturi voluptatem distinctio dolore magni reiciendis temporibus labore vero, fugiat nobis. Ipsum quae corrupti dolores quidem sed, dicta temporibus?
+        </div>
+  
+  
+    </div>
+
+</body>
+</html>
